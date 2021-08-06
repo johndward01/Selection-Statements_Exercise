@@ -124,6 +124,21 @@ namespace Selection_Statements_Exericse_01_Answers
             }
 
 
+
+            // TODO: (True or False) Will this statement be executed? 
+            // TODO: What will be printed to the console
+            if (var1 == false)
+            {
+                Console.WriteLine($"if statement count{if_count}");
+                if_count++;
+            }
+            // TODO: (True or False) Will this statement be executed? 
+            // TODO: What will be printed to the console
+            else
+            {
+                Console.WriteLine($"else statement count{else_count}");
+                else_count++;
+            }
         }
         private static void CreateSectionBreak()
         {
