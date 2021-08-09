@@ -40,9 +40,7 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (true)
             {
-                Console.WriteLine("1st if statement");
-                if_count++;
-                Console.WriteLine($"if statement count: {if_count}");
+                // code here
             }
 
 
@@ -57,9 +55,7 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (false)
             {
-                Console.WriteLine("2nd if statement");
-                if_count++;
-                Console.WriteLine($"if statement count: {if_count}");
+                // code here
             }
 
             Util.CreateStatementBreak();
@@ -71,9 +67,7 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (var1)
             {
-                Console.WriteLine("3rd if statement");
-                if_count++;
-                Console.WriteLine($"if statement count: {if_count}");
+                // code here
             }
 
             Util.CreateStatementBreak();
@@ -85,9 +79,7 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (var2)
             {
-                Console.WriteLine("4th if statement");
-                if_count++;
-                Console.WriteLine($"if statement count: {if_count}");
+                // code here
             }
 
             Util.CreateStatementBreak();
@@ -107,13 +99,11 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console 
             if (true)
             {
-                Console.WriteLine($"if statement count: {if_count}");
-                if_count++;
+                // code here
             }
             else
             {
-                Console.WriteLine($"else statement count: {else_count}");
-                else_count++;
+                // code here
             }
 
             Util.CreateStatementBreak();
@@ -125,13 +115,11 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console 
             if (var2 == true)
             {
-                Console.WriteLine($"if statement count: {if_count}");
-                if_count++;
+                // code here
             }
             else
             {
-                Console.WriteLine($"else statement count: {else_count}");
-                else_count++;
+                // code here
             }
 
             Util.CreateStatementBreak();
@@ -143,13 +131,11 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (var1 == false)
             {
-                Console.WriteLine($"if statement count: {if_count}");
-                if_count++;
+                // code here
             }
             else
             {
-                Console.WriteLine($"else statement count: {else_count}");
-                else_count++;
+                // code here
             }
 
             Util.CreateStatementBreak();
@@ -161,13 +147,11 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (var2 == false)
             {
-                Console.WriteLine($"if statement count: {if_count}");
-                if_count++;
+                // code here
             }
             else
             {
-                Console.WriteLine($"else statement count: {else_count}");
-                else_count++;
+                // code here
             }
 
             Util.CreateStatementBreak();
@@ -179,13 +163,11 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing the count to the console
             if (var2 != var1)
             {
-                Console.WriteLine($"if statement count: {if_count}");
-                if_count++;
+                // code here
             }
             else
             {
-                Console.WriteLine($"else statement count: {else_count}");
-                else_count++;
+                // code here
             }
 
             Util.CreateStatementBreak();
@@ -306,6 +288,10 @@ namespace Selection_Statements_Exericse_01_Answers
 
             Util.CreateStatementBreak();
 
+            #endregion
+
+            #region SWITCH/CASE Statements
+
             // Use these variables for the SWITCH/CASE Statements below
             var grades = new char[] { 'A', 'B', 'A', 'B', 'C', 'B', 'B', 'C', 'A', 'D', 'F', 'B' }; // A -> F
             var orders = new int[] { 1, 4, 2, 3, 1, 2, 1, 3, 5, 1, 4, 4, 3 }; // 1 -> 5
@@ -314,8 +300,18 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: You can take in a user's input and replace the method with that instead for extra practice!
 
             // TODO: Complete the switch/case statement below to print a response to a given grade ( use the grades variable and the ChooseRandomGrade() method)
+            switch (ChooseRandomGrade(grades))
+            {
+                // Code goes here
+            }
+
+
             // TODO: Create a switch/case to take a bunch of orders and print out the order to the console ( use the orders variable and the ChooseRandomOrder() method)
             // TODO: Create a switch/case to Take a collection of suits (regardless of capitalization) and print the suit to the console
+
+            Util.CreateStatementBreak();
+
+            #endregion
         }
 
         public static char ChooseRandomGrade(char[] grades)
