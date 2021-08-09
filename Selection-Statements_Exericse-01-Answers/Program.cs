@@ -401,10 +401,10 @@ namespace Selection_Statements_Exericse_01_Answers
             return grades[rng.Next(0, grades.Length - 1)];
         }
 
-        public static int ChooseRandomOrder(int[] grades)
+        public static int ChooseRandomOrder(int[] orders)
         {
             var rng = new Random();
-            return grades[rng.Next(0, grades.Length - 1)];
+            return orders[rng.Next(0, orders.Length - 1)];
         }
 
         public static string ChooseRandomSuit(string[] suits)
