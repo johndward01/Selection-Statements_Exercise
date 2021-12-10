@@ -9,14 +9,10 @@ namespace Selection_Statements_Exericse_01_Answers
             // Complete all of the TODOs for the Selection Statements below
             /* There will be:
              * if statements,
-             * if/else statements,                  
-             * if/else if statements,
+             * if/else statements,
              * if/else if/else statements,
-             * switch/case statements,
-             * and inline-if statements 
+             * and switch/case statements
             */
-
-
 
             #region IF Statements
 
@@ -40,7 +36,7 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (true)
             {
-                // code here
+                if_count++;
             }
 
 
@@ -55,7 +51,7 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (false)
             {
-                // code here
+                if_count++;
             }
 
             Util.CreateStatementBreak();
@@ -67,7 +63,7 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (var1)
             {
-                // code here
+                if_count++;
             }
 
             Util.CreateStatementBreak();
@@ -79,7 +75,7 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (var2)
             {
-                // code here
+                if_count++;
             }
 
             Util.CreateStatementBreak();
@@ -99,11 +95,11 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console 
             if (true)
             {
-                // code here
+                if_count++;
             }
             else
             {
-                // code here
+                else_count++;
             }
 
             Util.CreateStatementBreak();
@@ -115,11 +111,11 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console 
             if (var2 == true)
             {
-                // code here
+                if_count++;
             }
             else
             {
-                // code here
+                else_count++;
             }
 
             Util.CreateStatementBreak();
@@ -131,11 +127,11 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (var1 == false)
             {
-                // code here
+                if_count++;
             }
             else
             {
-                // code here
+                else_count++;
             }
 
             Util.CreateStatementBreak();
@@ -147,11 +143,11 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing it to the console
             if (var2 == false)
             {
-                // code here
+                if_count++;
             }
             else
             {
-                // code here
+                else_count++;
             }
 
             Util.CreateStatementBreak();
@@ -163,11 +159,11 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: Check your anwer by printing the count to the console
             if (var2 != var1)
             {
-                // code here
+                if_count++;
             }
             else
             {
-                // code here
+                else_count++;
             }
 
             Util.CreateStatementBreak();
@@ -300,9 +296,13 @@ namespace Selection_Statements_Exericse_01_Answers
             // TODO: You can take in a user's input and replace the method with that instead for extra practice!
 
             // TODO: Complete the switch/case statement below to print a response to a given grade ( use the grades variable and the ChooseRandomGrade() method)
+            // Ex: case 'A':
+            //         Console.WriteLine("You got an A!");
+            //         break;
+            
             switch (ChooseRandomGrade(grades))
             {
-                // Code goes here
+                
             }
 
 
@@ -312,6 +312,7 @@ namespace Selection_Statements_Exericse_01_Answers
             Util.CreateStatementBreak();
 
             #endregion
+
         }
 
         public static char ChooseRandomGrade(char[] grades)
