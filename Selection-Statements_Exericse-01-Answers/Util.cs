@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Selection_Statements_Exericse_01_Answers
+namespace Selection_Statements_Exericse_01
 {
     internal class Util
     {

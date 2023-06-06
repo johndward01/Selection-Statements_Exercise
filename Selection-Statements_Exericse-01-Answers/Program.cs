@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Selection_Statements_Exericse_01_Answers
+namespace Selection_Statements_Exericse_01
 {
     class Program
     {
